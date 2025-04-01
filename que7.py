@@ -22,10 +22,11 @@ def exponent(a,b):
     exponent=a**b
     return exponent
 
-a,b=10,7
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
 
 add=addition(a,b)
-print(f"The add is ",add1)
+print(f"The add is ",add)
 subtract=subtraction(a,b)
 print(f"The subtract ",subtract)
 multiply=multiplication(a,b)
